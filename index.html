@@ -1,10 +1,18 @@
 <html>
   <head>
     <title>FizzBuzz Assignment</title>
+    <script type="text/javascript" src="fizzbuzz.js"></script>
   </head>
   <body>
     <h1>FizzBuzz Assignment</h1>
-    <p>View FizzBuzz output in your browser console. No output will display on this page.</p>
-    <script type="text/javascript" src="fizzbuzz.js"></script>
+    <p>Just for fun I changed Fizzbuzz to KyloRen. Results will display in console. The range will start at the number 1. Enter an ending number to change the range of numbers that will be checked.Numbers divisible by 3 will display Kylo. Number divisible by 5 will display Ren. Numbers divisible by both will display KyloRen. Numbers divisible by neither will display the number itself.</p>
+    <!-- not sure why the script needs to be before the onclick to work -->
+    
+    <p>
+      <p>ending number <input id="RangeLim"></p>
+      <!-- runs the fizzbuzz.js script -->
+      <button onclick='deployKyloRen();'>Execute!</button>
+   </p>
+    
   </body>
 </html>
