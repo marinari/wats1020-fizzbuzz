@@ -1,7 +1,7 @@
 // Place your FizzBuzz code here. 
 
 // Count through the numbers 1-20 and find out if each number is divisible by 3, 5 or 3 and 5.
-For (i=1; i<=20; i=i+1;){
+For (i=1; i<=20; i=i+1){
 
 
 
