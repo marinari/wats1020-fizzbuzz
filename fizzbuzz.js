@@ -13,15 +13,15 @@ function deployKyloRen() {
 	if (i % 3 === 0) {
 		// If so, see if it is ALSO divisible by 5
 		if (i % 5 === 0) {
-			// If it divisible by 3 and 5 return fizz buzz
+			// If it divisible by 3 and 5 return wordA + wordB
 			console.log ('KyloRen');
 		} else {
-			// If it is only divisibile by 3 return fizz
+			// If it is only divisibile by 3 return wordA
 			console.log ('Kylo');
 		}		
 	}	//Check if number is divisible by 5
 		else if (i % 5 === 0){
-		//If it is return buzz
+		//If it is return wordB
 		console.log ('Ren');
 		} else {
 		//Check if number is divisible neither
